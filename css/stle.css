@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+header{
+    margin: 0;
+    padding: 10px;
+    background-color: #e6e4e4;
+    height: 400px;
+    border-radius: 10px;
+
+}
+img{
+    float: left;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+
+}
+.textlogo{
+    float: left;
+    margin-left: 5px;
+    font-family: "Rubik Vinyl", serif;
+    position: sticky;
+    margin-top:10px ;
+    top: 0;
+
+}
+.link{
+    float: right;
+    margin-top: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    width: 40px;
+    height: 20px;
+    background-color: #EEE;
+    padding: 3px;
+    border-radius: 7px;
+    text-align: center;
+    border: 2px #c2c1c1 solid;
+    font-family: "Playfair Display", serif;
+    position: sticky;
+    top: 0;
+
+}
+.btt{
+    float: right;
+    margin-left: 10px;
+
+}
+button{
+    outline: none;
+    border: 2px #cdcdcd solid;
+    border-radius: 8px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+    margin-top: -5px;
+
+}
+.clear{
+    clear: both;
+
+}
+.head{
+    display: block;
+    color: black;
+    width: fit-content;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 60px 0;
+    font-size:40px;
+    font-weight: 500;
+    font-family: "Rubik Vinyl", serif;
+
+}
+.head::before{
+    content: "";
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    left:70px ;
+    margin-top: 20px;
+
+}
+.head::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    background-color: black;
+    right:70px ;
+    margin-top: 20px;
+    
+}
+.about{
+    display: block;
+    width: 70%;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    padding:10px;
+    
+}
